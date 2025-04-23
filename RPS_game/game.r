@@ -15,12 +15,12 @@ Enter your choice : '))
       print("Its Tie")
       cat("computer choose : ", com)
     }else if(pl==1 && com == 3 || pl==2 && com == 1 || pl==3 && com== 2){
-      print("win")
+      print("You win")
       cat(
         "computer choose : ", com)
       player<<-player+1
     }else{
-      print('loose')
+      print('You loose')
       cat("computer choose : ", com)
       computer<<-computer+1
     }
